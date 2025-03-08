@@ -1,0 +1,14 @@
+Problem 3.1 solutions are on the pdf file.
+
+
+I have implemented the Problem 3.2 | Selection Sort Algorithm 
+into 4 different python files. 
+
+SelectionSort.py - The sorting algorithm itself
+SortAlgorithmTestCases.py - Worst, Best, Average test cases
+TimeComplexity.py - Measuring time complexity
+
+Run the Results.py file for the plots and calculations.
+
+
+

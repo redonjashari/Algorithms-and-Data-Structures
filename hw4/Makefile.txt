@@ -1,0 +1,18 @@
+For Problem 4.1 i have done the tasks in two seperate files, the MergeSort.cpp is where the algorithm is implemented and when it runs it gives the computation times for the tasks.
+MergeSortPlot.py is the file where i have run the algorithm got the times and created a plot. Answers.txt contains all the answers for a, b, c, d.
+
+Problem 4.1:
+
+For the MergeSort.cpp:
+
+g++ -Wall MergeSort.cpp -o MergeSort
+./MergeSort
+
+For the python file just run.
+
+Problem 4.2:
+
+The solutions are in the pdf file.
+
+
+

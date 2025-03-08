@@ -1,0 +1,23 @@
+Problem 2.1: 
+g++ -Wall UsingLists.cpp -o UsingLists
+./UsingLists
+
+Problem 2.2:
+g++ -Wall UsingDeques.cpp -o UsingDeques
+./UsingDeques
+
+Problem 2.3:
+g++ -Wall WindGauge.cpp testWindGauge.cpp WindGauge.h -o WindGauge
+./WindGauge
+
+Problem 2.4:
+g++ -Wall ReversingVector.cpp -o ReversingVector
+./ReversingVector
+
+Problem 2.5:
+g++ -Wall Lotto.cpp -o Lotto
+./Lotto
+
+Problem 2.6:
+g++ -Wall UsingMaps.cpp -o UsingMaps
+./UsingMaps

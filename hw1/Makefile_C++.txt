@@ -1,0 +1,19 @@
+Problem 1.1: 
+g++ -Wall templeArraySearch.cpp -o templeArraySearch
+./templeArraySearch
+
+Problem 1.2:
+g++ -Wall Stack.h testStack.cpp -o Stack
+./Stack
+
+Problem 1.3:
+g++ -Wall LinkedList.h testLinkedList.cpp -o LinkedList
+./LinkedList
+
+Problem 1.4:
+g++ -Wall Vector.cpp -o Vector
+./Vector
+
+Problem 1.5:
+g++ -Wall VectorTwo.cpp -o VectorTwo
+./VectorTwo
