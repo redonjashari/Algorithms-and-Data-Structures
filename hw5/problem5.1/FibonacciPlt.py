@@ -1,3 +1,8 @@
+# CH-231-A
+# hw4
+# Redon Jashari
+# RJASHARI@constructor.university
+
 import matplotlib.pyplot as plt 
 import numpy as np
 
