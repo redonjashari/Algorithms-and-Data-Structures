@@ -1,0 +1,12 @@
+Problem 5.1:
+
+For the FibonacciNumbers.cpp:
+
+g++ -Wall FibonacciNumbers.cpp -o Fibonacci
+./Fibonacci
+
+For the python file just run.
+
+Problem 5.2:
+
+The solutions are in the pdf file.

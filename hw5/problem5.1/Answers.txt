@@ -1,0 +1,13 @@
+Problem 5.1:
+
+a - You can find in FibonacciNumbers.cpp
+
+b - The runtimes are shown on the terminal after running the FibonacciNumbers.cpp
+    and the plot is shown in FibonacciPlt.py
+
+c - All methods return the same fibonacci number for small n but for large n
+    floating point precision errors can happen closed-form method. Recursive and bottomup
+    use integer arithmetic so they are always accurate and so is the Matrix form since it uses
+    integer operations.
+
+d - Find in FibonacciPlt.py
