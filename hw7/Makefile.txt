@@ -1,0 +1,19 @@
+Problem 7.1:
+
+g++ -Wall Quicksort.cpp -o Quicksort
+./Quicksort
+
+Run Quicksortplot.py
+
+Part (d) found in Quicksort.txt
+
+Problem 7.2:
+
+g++ -Wall DeterministicQuicksort.cpp -o DeterministicQuicksort
+./DeterministicQuicksort
+
+g++ -Wall RandomizedQuicksort.cpp -o RandomizedQuicksort
+./RandomizedQuicksort
+
+Answers for part (b) found in Answers.txt
+

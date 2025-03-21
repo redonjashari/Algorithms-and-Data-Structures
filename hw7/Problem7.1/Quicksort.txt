@@ -1,0 +1,11 @@
+After implementing all the quicksort versions and running all of them it came up with these results:
+
+Average time (Lomuto): 0.000146004 seconds
+Average time (Hoare): 0.000131962 seconds
+Average time (Median-of-three): 0.000146785 seconds
+
+Hoare's Partition Algorithm is generally faster than because it 
+performs fewer swaps and makes only one traversal of the array, 
+leading to better time complexity in practice.
+
+Implemented a Bar chart in Quicksortplot.py

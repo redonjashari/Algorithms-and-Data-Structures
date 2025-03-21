@@ -1,0 +1,12 @@
+Problem 7.2: 
+
+a - is implemented in DeterministicQuicksort.cpp
+
+b -Time Complexity Analysis:
+Best-case: When the pivots split the array into three roughly equal parts,
+the recurrence is T(n) = 3T(n/3) + O(n) which is O(n log n).
+
+Worst-case: If the pivots are poorly balanced (for example, when the array is already
+nearly sorted in an order that makes one partition very large), the running time degrades to O(n²).
+
+c - is implemented in RandomizedQuicksort.cpp
