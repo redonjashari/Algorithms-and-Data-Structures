@@ -1,0 +1,7 @@
+(a) is implemented in radixSortHollerith.py
+
+(b)
+
+In the average case (assuming a balanced distribution), the total work is O(d · n).
+In the worst-case scenario, if the distribution is extremely skewed, the recurrence could worsen; however, for a typical case with fixed d, the time complexity is O(n).
+The total extra space required is O(n + R) (with R being constant relative to n in many cases), which is O(n).

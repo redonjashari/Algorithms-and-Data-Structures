@@ -1,0 +1,50 @@
+Problem 8.2 :
+
+(a) is implemented in countingSort.py
+
+(b) is implemented in bucketSort.py
+
+(c) 
+
+Algorithm Counts(A, k):
+    Input: A[1...n] with integers in [0, k]
+    Output: Array C[0...k] where C[i] is the count up to i
+
+    //Count occurrences (Θ(n))
+    Let count[0...k] be a new array initialized to 0
+    for i from 1 to n:
+        count[A[i]] = count[A[i]] + 1
+
+    //Build cumulative count (prefix sum) array (Θ(k))
+    Let C[0...k] be a new array
+    C[0] = count[0]
+    for i from 1 to k:
+        C[i] = C[i - 1] + count[i]
+    return C
+
+Algorithm RangeCount(C, a, b):
+    Input: C[0...k] cumulative count array, integers a and b (0 ≤ a ≤ b ≤ k)
+    if a == 0:
+        return C[b]
+    else:
+        return C[b] - C[a - 1]
+
+    Output: Number of elements in A that lie in the interval [a, b]
+
+(d) 
+
+Algorithm RadixSortWords(W[1...n], k):
+    // W[i] is a word of exactly length k
+    for pos from k downto 1:
+        //stable sort of words W by the character at position pos.
+        //assume StableSort can sort W based on the key: W[i][pos]
+        W = StableSort(W, key = character at position pos)
+    return W
+
+Since k is treated as constant, each pass is Θ(n), and the total time is Θ(n).
+
+(e)
+
+If all the input elements fall into a single bucket then one bucket will contain n elements and
+if the algorithm then uses a comparison-based sort on that bucket, the cost to sort that bucket is O(n2).
+So worst-case is O(n2)
