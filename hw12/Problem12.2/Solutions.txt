@@ -1,0 +1,15 @@
+Problem 12.2:
+
+(b) With the dynamic programming approach we visit each cell exactly once
+    and at each cell we do some work.
+    Time complexity is O(n^2) or O(number of cells)
+    Space complexity is O(n^2)
+
+    Brute force approach we see that from the top to the bottom there are
+    2^n-1 rows so the time complexity would be O(2^n) and the space complexity
+    would be O(n)
+
+(c) A greedy decision based only on the immediate next row can’t foresee 
+    that a slightly smaller immediate choice may open up a much larger value 
+    two or three rows down. Only by looking at all subpaths—i.e. via 
+    dynamic programming—can you be sure you’ve achieved the global maximum.

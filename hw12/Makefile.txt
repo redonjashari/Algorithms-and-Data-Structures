@@ -1,0 +1,11 @@
+Problem 12.1:
+
+python longestOrderedSubarray.py < input.txt
+
+and you will get the output in the console, i have inputed many testcases
+
+Problem 12.2:
+
+python sumTriangles.py < input.txt
+
+output in console for (a) and the answers for (b), (c) in Solutions.txt
