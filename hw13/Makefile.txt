@@ -1,0 +1,11 @@
+Problem 13.1:
+
+You can find the solution in the text file inside the folder.
+
+Problem 13.2:
+
+You can find the implementation in python inside the folder.
+
+Problem 13.3:
+
+You can find the implementation in python inside the folder.

@@ -1,0 +1,22 @@
+# CH-231-A
+# hw13
+# Redon Jashari
+# RJASHARI@constructor.university
+
+Assume we have a 3 node (a,b,c) graph in the form of a triangle:
+
+(a,b) = -3
+(b,c) = -3
+(a,c) = -5
+
+So from here we see that a->b->c is the shortest path now lets add
+a positive constant
+
+(a,b) = -3 + 3 = 0
+(b,c) = -3 + 3 = 0
+(a,c) = -5 + 3 = -2
+
+So now the direct path has less cost but that path originaly costs -5
+which is worst then -6 which is the optimal path.
+
+Adding a constant distorts the algorithm relative order.
